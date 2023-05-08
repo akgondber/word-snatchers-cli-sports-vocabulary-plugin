@@ -1,0 +1,41 @@
+{
+  "name": "word-snatchers-cli-sports-vocabulary-plugin",
+  "version": "1.0.0",
+  "description": "Sports vocabulary plugin for word-snatchers-cli",
+  "license": "MIT",
+  "author": "Rushan Alyautdinov <akgondber@gmail.com>",
+  "type": "module",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "scripts": {
+    "test": "uvu tests",
+    "prettify": "prettier --write .",
+    "checkfiles": "purposefile"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "consolegame",
+    "cli",
+    "wordsnatcherscliplugin",
+    "word-snatchers-cli-plugin",
+    "word-snatchers-cli",
+    "plugin",
+    "english",
+    "learning",
+    "training",
+    "practicing",
+    "words",
+    "sport",
+    "sports",
+    "vocabulary",
+    "game"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "purposefile": "^1.2.0",
+    "uvu": "^0.5.6"
+  }
+}

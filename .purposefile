@@ -1,0 +1,18 @@
+.purposefile                 Configures purposefile
+.gitignore                   Configures git to ignore certain files
+.npmignore                   Configures npm to ignore certain files
+.prettierrc                  Configures Prettier
+.prettierignore              Configures Prettier ignored files
+package.json                 Configures npm and related tools
+README.md                    Documentation for repo
+LICENSE                      License for package
+.git/**                      Internal git state & config
+node_modules/**/*            Dependencies installed by npm
+index.js                     Source file
+tests/**/*.js                Test files
+CHANGELOG.md                 Changelog file
+media/**/*                   Media files
+doc/**/*.md                  Documentation files
+.yarn/**/*                   Yarn files
+yarn.lock                    Yarn lockfile
+.yarnrc.yml                  Yarn configuration file
